@@ -12,4 +12,8 @@ Pod::Spec.new do |s|
   s.platform = :tvos
   s.tvos.deployment_target = '9.0'
   s.vendored_frameworks = "TVVLCKit.framework"
+  s.xcconfig = {
+    'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
+    'CLANG_CXX_LIBRARY' => 'libc++'
+  }
 end
