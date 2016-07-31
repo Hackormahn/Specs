@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.tvos.deployment_target = '9.0'
   s.tvos.vendored_frameworks = "Carthage/Build/tvOS/PopcornTorrent.framework"
-  s.ios.vendored_frameworks = "Carthage/Build/iOS/PopcornTorrent-iOS.framework"
+  s.ios.vendored_frameworks = "Carthage/Build/iOS/PopcornTorrent.framework"
 end
