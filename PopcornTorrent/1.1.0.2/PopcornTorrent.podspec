@@ -7,7 +7,8 @@ Pod::Spec.new do |s|
   s.author           = { "Popcorn" => "popcorn@time.tv" }
   s.source      = { :http => "https://github.com/PopcornTimeTV/PopcornTorrent/releases/download/1.1.0.2/PopcornTorrent.framework.zip" }
   s.requires_arc = true
-  s.deployment_target = '9.0'
+  s.ios.deployment_target = '9.0'
+  s.tvos.deployment_target = '9.0'
   s.tvos.vendored_frameworks = "Carthage/Build/tvOS/PopcornTorrent.framework"
   s.ios.vendored_frameworks = "Carthage/Build/iOS/PopcornTorrent-iOS.framework"
 end
